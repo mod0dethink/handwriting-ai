@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from model import HandwritingCNN  # ← 自作のmodel.pyから読み込む
+from model import HandwritingCNN
 import os
 
 # 設定
